@@ -1,0 +1,6 @@
+framework module ColoringExtensionTest {
+  umbrella header "ColoringExtensionTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

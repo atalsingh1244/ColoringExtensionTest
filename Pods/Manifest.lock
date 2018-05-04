@@ -1,0 +1,16 @@
+PODS:
+  - ColoringExtensionTest (0.1.0)
+
+DEPENDENCIES:
+  - ColoringExtensionTest (from `../`)
+
+EXTERNAL SOURCES:
+  ColoringExtensionTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ColoringExtensionTest: 5affe460a63dd0a5bc15d619947e7d1bd65d036b
+
+PODFILE CHECKSUM: 530043e305bb49c086b0c730169916fd39118113
+
+COCOAPODS: 1.5.0

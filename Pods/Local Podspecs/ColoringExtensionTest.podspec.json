@@ -1,0 +1,22 @@
+{
+  "name": "ColoringExtensionTest",
+  "version": "0.1.0",
+  "summary": "A short description of ColoringExtensionTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Malik Khoja/ColoringExtensionTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Malik Khoja": "malik.khoja@pocketapp.co.uk"
+  },
+  "source": {
+    "git": "https://github.com/Malik Khoja/ColoringExtensionTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ColoringExtensionTest/Classes/**/*"
+}
