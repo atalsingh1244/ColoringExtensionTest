@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C8E058C67F41DA7B35C4B7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		509815D79037048EF7E41392 /* ColoringExtensionTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ColoringExtensionTest.podspec; path = ../ColoringExtensionTest.podspec; sourceTree = "<group>"; };
+		4C8E058C67F41DA7B35C4B7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		509815D79037048EF7E41392 /* ColoringExtensionTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColoringExtensionTest.podspec; path = ../ColoringExtensionTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5425627DBCF572B82CE86783 /* Pods-ColoringExtensionTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoringExtensionTest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColoringExtensionTest_Tests/Pods-ColoringExtensionTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ColoringExtensionTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColoringExtensionTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		7A0C62C924574A8E88906C93 /* Pods-ColoringExtensionTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoringExtensionTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColoringExtensionTest_Example/Pods-ColoringExtensionTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9A0B357C2831C53F1CD911BB /* Pods-ColoringExtensionTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoringExtensionTest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColoringExtensionTest_Tests/Pods-ColoringExtensionTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A15090D9D3946E3B7D4FC767 /* Pods_ColoringExtensionTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColoringExtensionTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A87F5F379B9747C23378420B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A87F5F379B9747C23378420B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D0A9D67A51ECC1690149CAB3 /* Pods-ColoringExtensionTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoringExtensionTest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColoringExtensionTest_Example/Pods-ColoringExtensionTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FFC9344CB1BA8CA1EE516FF6 /* Pods_ColoringExtensionTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColoringExtensionTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -470,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ColoringExtensionTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -485,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ColoringExtensionTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
